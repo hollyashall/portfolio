@@ -1,21 +1,35 @@
 @use './variables' as *;
 
-.navbar__container {
-  align-items: center;
+.nav-bar {
+  background-color: #fff;
+  border-bottom: 4px solid #000;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-
-
-  .nav-bar__detail{
-    color: grey;
-    list-style-type: none;
-    
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-  }
+  flex-direction: column;
+  grid-area: 1/-1;
+  height: 10vh;
+  padding: 1rem 2rem;
+  list-style: none;
 }
+
+.nav-bar__container{
+  navbar__container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    
+
+
+//   .nav-bar__detail{
+//     color: grey;
+//     list-style-type: none;
+    
+//     flex-direction: row;
+//     justify-content: space-around;
+//     align-items: flex-end;
+//   }
+// }
 
  
