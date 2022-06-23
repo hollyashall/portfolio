@@ -1,22 +1,20 @@
 @use './variables' as *;
 
-.nav-bar{
-
-  
-box-sizing: border-box;
-justify-content: center;
-left: 1429px;
-top: 47px;
-color: black;
-border: 1px;
+.navbar__container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 
 
   .nav-bar__detail{
     color: grey;
     list-style-type: none;
-    display: flex;
+    
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
   }
 }
 

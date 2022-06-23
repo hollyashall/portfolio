@@ -3,10 +3,20 @@
 @use "./First-section" as *;
 @use "./tech-skills" as *;
 
-
-@media screen and (min-width:768px) {
-  
+*{
+  // width: 32.5rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+  @media screen and (min-width: 768px)  {
+  
+  body {
+    width: 50px;
+    
+
+}
+  }
 
 
 

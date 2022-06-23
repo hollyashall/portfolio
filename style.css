@@ -3,24 +3,22 @@
   padding: 5px;
 }
 
-.nav-bar {
-  box-sizing: border-box;
-  justify-content: center;
-  left: 1429px;
-  top: 47px;
-  color: black;
-  border: 1px;
-}
-.nav-bar .nav-bar__detail {
-  color: grey;
-  list-style-type: none;
+.navbar__container {
+  align-items: center;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar__container .nav-bar__detail {
+  color: grey;
+  list-style-type: none;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: flex-end;
 }
 
 .First-section {
-  position: absolute;
   width: 396px;
   height: 832px;
   left: 16px;
@@ -28,10 +26,6 @@
 }
 
 .First-section__Title {
-  width: 314px;
-  height: 32px;
-  left: 687px;
-  top: 374px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -44,10 +38,6 @@
 }
 
 .First-section__big-heading {
-  width: 1108px;
-  height: 192px;
-  left: 306px;
-  top: 439px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -62,10 +52,6 @@
 }
 
 .First-section__Sub-heading {
-  width: 221px;
-  height: 24px;
-  left: 31.5px;
-  top: 27px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -73,4 +59,20 @@
   line-height: 24px;
   /* Deep Navy */
   color: #272643;
+}
+
+.tech-skills__photos {
+  display: flex;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
