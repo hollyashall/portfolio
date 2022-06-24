@@ -1,6 +1,6 @@
 @use './variables' as *;
 
-<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&family=Dancing+Script&family=Fascinate&family=Inter:wght@100&family=League+Gothic&family=Roboto&display=swap" rel="stylesheet">
+
 
 .navbar {
   display: flex;
@@ -42,6 +42,7 @@ font-style: normal;
 }
 
 .navbar-links li:hover {
+
   // background-color: #555;
 }
 
