@@ -160,16 +160,37 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.my-projects__grid-specific-blueBackground {
-  background-color: #E3F6F5;
-  width: 100%;
-  height: 10rem;
+.my-projects__projectTitle {
+  font-size: 2rem;
+}
+
+.my-projects__grid-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 440px;
+}
+
+.my-projects__grid-card-blueBackground {
+  background-color: #E3F6F5;
+  width: 15rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.my-projects__grid-card-detail-skill {
+  color: #BAE8E8;
+  font-size: 1rem;
+}
+
+.my-projects__grid-card-detail-title {
+  color: #272643;
+  font-size: 1.5rem;
 }
 
 .about-me__imageME {
