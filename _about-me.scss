@@ -2,6 +2,7 @@
 display: flex;
 flex-direction: column;
 padding: 2rem;
+height: 100%;
 }
 
 .about-me__imageME{
@@ -17,4 +18,8 @@ padding: 2rem;
 .about-me__description{
   color: #8C9CB1;
   font-family: 'Inter', sans-serif;
+}
+
+.about-me__contact{
+  background-color: #000000;
 }
