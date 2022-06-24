@@ -1,51 +1,17 @@
 @use './variables' as *;
 
-// .nav-bar {
-//   background-color: #fff;
-//   border-bottom: 4px solid #000;
-//   display: flex;
-//   flex-direction: column;
-//   grid-area: 1/-1;
-//   height: 10vh;
-//   padding: 1rem 2rem;
-//   list-style: none;
-  
-// }
-
-// .nav-bar__container{
-  
-//     align-items: center;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     width: 100%;
-//     height: 10rem;
-//     list-style: ;
-
-//   }
-// .nav-bar__container-button-image{
-// height: 5rem;
-// }
-
-//   .nav-bar__detail{
-//     color: grey;
-//     list-style-type: none;
-    
-//     flex-direction: row;
-//     justify-content: space-around;
-//     align-items: flex-end;
-//   }
-// }
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&family=Dancing+Script&family=Fascinate&family=Inter:wght@100&family=League+Gothic&family=Roboto&display=swap" rel="stylesheet">
 
 .navbar {
   display: flex;
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
   color: 
   #272643;
   width: 100%;
+  font-family: 'Inter', sans-serif;
+font-style: normal;
   
 }
 
@@ -71,12 +37,12 @@
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: rgba(43, 12, 12, 0.939);
+  color: #8C9CB1;
   padding: 5rem;
 }
 
 .navbar-links li:hover {
-  background-color: #555;
+  // background-color: #555;
 }
 
 .toggle-button {
@@ -97,11 +63,7 @@
   border-radius: 10px;
 }
 
-// @media (max-width: 800px) {
-//   .navbar {
-//       flex-direction: column;
-//       align-items: flex-start;
-//   }
+
 
   .toggle-button {
       display: flex;
