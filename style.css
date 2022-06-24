@@ -126,6 +126,8 @@
   align-items: center;
   text-align: center;
   color: #272643;
+  background-color: #BAE8E8;
+  margin: 20%;
 }
 
 .tech-skills {
@@ -149,6 +151,10 @@
   grid-template-columns: repeat(3, 1fr);
   height: 100vh;
   width: 100vw;
+}
+
+.about-me__imageME {
+  height: 20rem;
 }
 
 * {
