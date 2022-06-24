@@ -126,6 +126,13 @@
   color: #272643;
 }
 
+.tech-skills {
+  color: #272643;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
 .tech-skills__photos {
   display: flex;
 }
