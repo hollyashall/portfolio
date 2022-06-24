@@ -1,12 +1,17 @@
 @use './variables' as *;
 
 .First-section{
-  width: 50rem;
+  width: 100%;
   height: 15rem;
   left: 16px;
   top: 79px;
   background:  #F7FAFA;
   font-family: 'Inter', sans-serif;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start:1 ;
+  grid-column-end: 5;
+
 }
 
 .First-section__Title{
