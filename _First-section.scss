@@ -27,7 +27,7 @@ font-weight: 600;
 align-items: center;
 text-align: center;
 color: #8C9CB1;
-height:10rem;
+// height:10rem;
 // padding: 10%;
 size: 10rem;
 
@@ -40,30 +40,26 @@ font-family: inter;
 font-style: normal;
 font-weight: 600;
 // font-size: 40rem;
-line-height: 120%;
+// line-height: 10rem;
 display: flex;
 align-items: center;
 text-align: center;
 color: #272643;
 height: 30rem;
-size: 10rem;
+// size: 10rem;
+font-size: 4rem;
 
 }
 
 .First-section__Sub-heading{
-  // position: absolute;
-// width: 221px;
-// height: 24px;
-// left: 31.5px;
-// top: 27px;
+
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 24px;
-
-/* Deep Navy */
-
+align-items: center;
+text-align: center;
 color: #272643;
 }
