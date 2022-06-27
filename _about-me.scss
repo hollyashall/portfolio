@@ -8,6 +8,7 @@ height: 100%;
 
 .about-me__imageME{
   height: 20rem;
+  object-fit: contain;
 }
 
 .about-me__title{
@@ -19,8 +20,20 @@ height: 100%;
 .about-me__description{
   color: #8C9CB1;
   font-family: 'Inter', sans-serif;
-}
+//   position: left;
+// }
 
 .about-me__contact{
   background-color: #000000;
+}
+
+@media screen and (min-width: 768px)  {
+  
+  .about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // border: 2px solid pink;
+    
+  }
 }
