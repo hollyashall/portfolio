@@ -12,6 +12,7 @@
   grid-column-end: 5;
   display: flex;
   flex-direction: column;
+  
 
   
 
@@ -47,7 +48,7 @@ text-align: center;
 color: #272643;
 height: 30rem;
 // size: 10rem;
-font-size: 4rem;
+font-size: 4.5rem;
 
 }
 .First-section__big-heading-blue{
@@ -69,4 +70,22 @@ margin: 20%;
 border: 2px solid #272643;
 box-shadow: 0px 20px 40px rgba(185, 192, 192, 0.19);
 border-radius: 7px;
+}
+
+@media screen and (min-width: 768px)  {
+  
+  .First-section__big-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 900;
+    
+  }
+
+  .First-section__Sub-heading{
+    // width: 30%;
+    object-fit: contain;
+    width: 30rem;
+    margin: auto;
+  }
 }

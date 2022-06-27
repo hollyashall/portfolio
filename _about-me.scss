@@ -20,6 +20,7 @@ height: 100%;
 .about-me__description{
   color: #8C9CB1;
   font-family: 'Inter', sans-serif;
+}
 //   position: left;
 // }
 
@@ -31,7 +32,7 @@ height: 100%;
   
   .about-me{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     // border: 2px solid pink;
     
