@@ -4,10 +4,14 @@
   color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  height: 3rem;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .footer__social{

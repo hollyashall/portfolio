@@ -4,6 +4,10 @@ flex-direction: column;
 padding: 2rem;
 height: 100%;
 // grid-row: span 6;
+grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .about-me__imageME{

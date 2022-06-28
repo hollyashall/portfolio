@@ -45,6 +45,10 @@
 
 }
 
+
+
+
+
 @media screen and (min-width: 768px)  {
   
  .my-projects__grid{
@@ -52,7 +56,15 @@
    flex-direction: row;
    justify-content: space-evenly;
    width: 100%;
-
+  
    
  }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .my-projects__Desktop {
+      display: none;
+     
+    }
   }
