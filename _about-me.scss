@@ -8,6 +8,8 @@ grid-row-start: 2;
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 4;
+    align-items: center;
+  position: center;
 }
 
 .about-me__imageME{
@@ -20,6 +22,7 @@ grid-row-start: 2;
   font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 3rem;
+  
 }
 
 .about-me__description{
