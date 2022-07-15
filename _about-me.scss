@@ -11,7 +11,8 @@ grid-row-start: 2;
 }
 
 .about-me__imageME{
-  height: 20rem;
+  height: 10rem;
+  width: 7rem;
   object-fit: contain;
 }
 
@@ -41,4 +42,9 @@ grid-row-start: 2;
     // border: 2px solid pink;
     
   }
+  .about-me__imageME{
+    width: 15rem;
+    height: 20rem;
+  }
+
 }
