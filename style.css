@@ -218,6 +218,10 @@
   align-items: center;
 }
 
+.my-projects__grid-card-links {
+  color: black;
+}
+
 .my-projects__grid-card-blueBackground {
   background-color: #E3F6F5;
   width: 15rem;
@@ -293,6 +297,10 @@
   .about-me__imageME {
     width: 15rem;
     height: 20rem;
+    align-items: center;
+  }
+  .about-me__description {
+    font-size: 2rem;
   }
 }
 .footer {
